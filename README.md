@@ -62,3 +62,7 @@ Open http://localhost:8000 and follow the steps in the "What is this?" panel at 
 Use a local server rather than opening the files directly, because the two screens need to share an origin to talk to each other.
 
 To run the backend scaffold: `cd backend && docker compose up`, then visit http://localhost:8001/health/.
+
+## Background
+
+Built in one day with a small team at the Cursor hackathon in Salaya, Thailand, in August 2026. I later redesigned it and fixed the missed check-in alerts on my own.
