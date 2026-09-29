@@ -57,7 +57,7 @@ cd cursor-hackathon-salaya/frontend
 python3 -m http.server 8000
 ```
 
-Open http://localhost:8000 and follow the steps in the "How to try it" panel at the top.
+Open http://localhost:8000 and follow the steps in the "What is this?" panel at the top.
 
 Use a local server rather than opening the files directly, because the two screens need to share an origin to talk to each other.
 
