@@ -65,4 +65,4 @@ To run the backend scaffold: `cd backend && docker compose up`, then visit http:
 
 ## Background
 
-Built in one day with a small team at the Cursor hackathon in Salaya, Thailand, in August 2026. I later redesigned it and fixed the missed check-in alerts on my own.
+Built in one day with a small team at the Cursor hackathon in Salaya, Thailand, in August 2026. The theme was to build an app for someone we love, so we made something to help families look after an older relative. I later redesigned it and fixed the missed check-in alerts on my own.
