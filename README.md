@@ -62,11 +62,3 @@ Open http://localhost:8000 and follow the steps in the "How to try it" panel at 
 Use a local server rather than opening the files directly, because the two screens need to share an origin to talk to each other.
 
 To run the backend scaffold: `cd backend && docker compose up`, then visit http://localhost:8001/health/.
-
-## Background
-
-I built this with a small team in one day at the Cursor hackathon in Salaya, Thailand, in August 2026. I worked on the idea, the screen designs, the pitch and parts of the front end, and presented the demo. The original team repo is [AyazYakupov/cursor-hackathon-salaya](https://github.com/AyazYakupov/cursor-hackathon-salaya).
-
-Afterwards I redesigned the front end for older eyes, fixed the missed check-in alerts, and made the demo easier to try.
-
-Photos: StockSnap (CC0) and Eric Oliveira on Unsplash.
