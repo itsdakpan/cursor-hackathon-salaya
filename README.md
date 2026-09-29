@@ -65,25 +65,8 @@ To run the backend scaffold: `cd backend && docker compose up`, then visit http:
 
 ## Background
 
-Built in one day at the Cursor hackathon in Salaya, Thailand, on 22 August 2026, by a team that included Yakupov Ayaz, Chris and Dylan Akpan. The team shared one laptop for most of the day, so most of the commits come from a single account. Dylan worked on the idea, the screen designs, the pitch and parts of the front end, and tested and presented the demo.
+I built this with a small team in one day at the Cursor hackathon in Salaya, Thailand, in August 2026. I worked on the idea, the screen designs, the pitch and parts of the front end, and presented the demo. The original team repo is [AyazYakupov/cursor-hackathon-salaya](https://github.com/AyazYakupov/cursor-hackathon-salaya).
 
-The original team repo is [AyazYakupov/cursor-hackathon-salaya](https://github.com/AyazYakupov/cursor-hackathon-salaya).
+Afterwards I redesigned the front end for older eyes, fixed the missed check-in alerts, and made the demo easier to try.
 
-- [Product brief](PRODUCT.md): users, features and what was out of scope
-- [Demo script](DEMO.md): the 90 second demo path and fallbacks
-- [Design notes](DESIGN.md)
-- [Team process](TEAM_PROCESS.md)
-- [API contracts](api-contracts/README.md)
-
-After the hackathon, Dylan revamped the frontend:
-
-- A calmer, higher contrast design built for older eyes, with 24 hour UK times and zoom allowed
-- Plain, clinically careful wording, and demo controls moved off the resident's screen into a presenter panel
-- The escalation alert and activity log on the family panel (before, missed check-ins never reached it)
-- A visible voice reply button, still tap targets, and a correct picture for every pill
-- Resized photo uploads so large pictures fit in browser storage
-- Every image and script bundled in the repo, so the demo no longer depends on outside image hosts
-
-## Photo credits
-
-Family photos are CC0 stock images from StockSnap (stocksnap.io). Margaret's portrait is by Eric Oliveira on Unsplash (unsplash.com/@ericdsgn), used under the Unsplash License.
+Photos: StockSnap (CC0) and Eric Oliveira on Unsplash.
